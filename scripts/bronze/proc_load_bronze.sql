@@ -8,7 +8,7 @@ Run this file with psql while connected to the datawarehouse database.
 */
 
 \set ON_ERROR_STOP on
-\timing on
+--\timing off
 
 SELECT clock_timestamp() AS batch_start_time \gset
 \echo ================================================================
